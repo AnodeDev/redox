@@ -1,0 +1,37 @@
+: Header 1
+
+:: Header 2
+
+This word is _italic_, and this word is *bold*
+
+Crossed out words look like -this- that
+
+Highlights also `exists`!
+
+::: Header 3
+
+Todo-function
+
+:<rust>
+fn todo(todo: &str) {
+    println!("TODO: {}", todo);
+}
+:<end>
+
+:::: Header 4
+
+All available functions (table):
+Functions       | Description
+todo              Prints the todo to the screen
+get_todo          Gets the todo from user input
+special_command   Parses special commands from user
+
+:: Header 2
+
+What to do today (unordered list):
+* Write code!
+* Buy groceries
+    * Pasta
+    * Ground beef
+    * Tomato sauce
+    * Oregano
